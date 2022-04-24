@@ -1,0 +1,90 @@
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg,#2ecc71 70%, #27ae60 40.1%);
+    padding-bottom: 70px;
+   
+}
+
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 700px;
+    background: rgb(85, 140, 98);
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+ 
+ 
+}
+
+#name1{
+    font-size: 70px;
+  font-weight: 600;
+  background-image: conic-gradient(#552ec2 30%, #ee4b2b 40%, #ee4b2b 70%, #00c2cb 80%, #502aba);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+}
+
+header{
+    background-color: wheat
+}
+#img1{
+    height: 50vh;
+    width:  40vw;
+   
+}
+.img{
+    background-color: rgb(25, 240, 115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title1{
+    size: 6px;
+    color: white;
+    font-size: 40px;
+    background-image: conic-gradient(#25d225 30%, #a35546 40%, #cb2727 70%, #239e8e 80%, #9f3179);
+    font-style: italic;
+    
+}
+#subtitle1{
+    color: white;
+    font-size: 20px;
+    background-image: conic-gradient(#2d632d 30%, #d14a2f 40%, #5f939f 70%, #665591 80%, #361c7d);
+    font-style: italic;
+}
+.content1{
+        display: block;
+        width: 42vw;
+        padding: 10px;
+        border: 5px solid gray;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+}
+
+#content1{
+    display: block;
+    width: 40vw;
+    overflow-wrap: break-word;
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 114%;
+}
